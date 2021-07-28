@@ -1,0 +1,6 @@
+framework module UbiBoat {
+  umbrella header "UbiBoat-umbrella.h"
+
+  export *
+  module * { export * }
+}

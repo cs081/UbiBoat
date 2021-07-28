@@ -1,0 +1,16 @@
+PODS:
+  - UbiBoat (0.1.0)
+
+DEPENDENCIES:
+  - UbiBoat (from `../`)
+
+EXTERNAL SOURCES:
+  UbiBoat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UbiBoat: 74d86f3d7d52b7064cbc8d52938635ed44060b03
+
+PODFILE CHECKSUM: 453c54dfb24eaff994a62346ad1d7a9959a0bbe6
+
+COCOAPODS: 1.10.1
