@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UbiBoat'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of UbiBoat.'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+test ubiboat ...test ubiboat ...test ubiboat ...test ubiboat ...
                        DESC
 
   s.homepage         = 'https://github.com/cs081/UbiBoat'
