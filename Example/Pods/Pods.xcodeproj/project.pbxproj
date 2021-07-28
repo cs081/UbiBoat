@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		094FBEAE7C79DA3D0200661FB7837652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		185AE5EA26B19FA8009D57FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AE5E926B19FA8009D57FF /* ReplaceMe.m */; };
 		263BB1D39038449D817AF3B73852BD20 /* UbiBoat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C61D4525A3672C9D7A8BAC6B74BEFD /* UbiBoat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F5DFEEAF49A243E4D337165C027780 /* Pods-UbiBoat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBA7CE18B13E18148DAF1AC3A935A45 /* Pods-UbiBoat_Tests-dummy.m */; };
 		46461ADB54FEB47ED94B2A18A5CA208C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		522464C2BB91CFED900C2DA7E96D7578 /* Pods-UbiBoat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C30FBD5A31E9CEE7279E2D4FD9F7BAF0 /* Pods-UbiBoat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		849BBA9C937B5EE652BED73D4C4661ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1EA0DA8FD2A4E0B6B3F7C18D3B8FA /* ReplaceMe.m */; };
 		88DD567C7D371C3D4C9C434380C30E2A /* Pods-UbiBoat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009EB706E6621B877C251BDEA85035BF /* Pods-UbiBoat_Example-dummy.m */; };
 		9814E6CCAAE32A2881DF594535769B71 /* Pods-UbiBoat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BABA58D4140D9DDF96B2A2A7098BAED /* Pods-UbiBoat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F29B8283FC2EF0C80C7CC46A42CF762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,7 +41,8 @@
 		00C61D4525A3672C9D7A8BAC6B74BEFD /* UbiBoat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UbiBoat-umbrella.h"; sourceTree = "<group>"; };
 		02185744F54E01AED002108B02F15D5F /* Pods-UbiBoat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiBoat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		025C0FF70648EC1138D05F94FADECC27 /* Pods-UbiBoat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiBoat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		04E45BD0E2C334E3DF9DF3A57DB68A2B /* Pods_UbiBoat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UbiBoat_Tests.framework; path = "Pods-UbiBoat_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E45BD0E2C334E3DF9DF3A57DB68A2B /* Pods_UbiBoat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UbiBoat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		185AE5E926B19FA8009D57FF /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UbiBoat/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1BABA58D4140D9DDF96B2A2A7098BAED /* Pods-UbiBoat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UbiBoat_Example-umbrella.h"; sourceTree = "<group>"; };
 		251AB8C0F3CDD03A8E4AE96B735DA984 /* Pods-UbiBoat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiBoat_Tests-Info.plist"; sourceTree = "<group>"; };
 		2780A2D2ECA6FC491000D5017859C666 /* Pods-UbiBoat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UbiBoat_Tests.modulemap"; sourceTree = "<group>"; };
@@ -54,20 +55,19 @@
 		719992FDB19A8F4EDB3AF5B4E8B38460 /* UbiBoat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UbiBoat-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8C63C968AF5962BC3DD0EC4DAB06B064 /* Pods-UbiBoat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiBoat_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E9F99A1373B4FFE70D467F1B939D56F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		97083C516E8F5D7CAADC12B8F59C44BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E9F99A1373B4FFE70D467F1B939D56F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97083C516E8F5D7CAADC12B8F59C44BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFBA7CE18B13E18148DAF1AC3A935A45 /* Pods-UbiBoat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UbiBoat_Tests-dummy.m"; sourceTree = "<group>"; };
-		BA50A643F40C4B3D5EF34A20D2FAA126 /* UbiBoat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UbiBoat.framework; path = UbiBoat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA50A643F40C4B3D5EF34A20D2FAA126 /* UbiBoat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UbiBoat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA66DBAE3BB91F23CF3581053A573091 /* UbiBoat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UbiBoat-dummy.m"; sourceTree = "<group>"; };
 		C183D5C20DF73EF54E039787B67A2D3E /* UbiBoat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UbiBoat-Info.plist"; sourceTree = "<group>"; };
 		C30FBD5A31E9CEE7279E2D4FD9F7BAF0 /* Pods-UbiBoat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UbiBoat_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C447854A21EFAA147124C490A53D290C /* UbiBoat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UbiBoat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CAC1EA0DA8FD2A4E0B6B3F7C18D3B8FA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UbiBoat/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C447854A21EFAA147124C490A53D290C /* UbiBoat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UbiBoat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EBB08C1C326338EE8DC7449E8D76824A /* Pods-UbiBoat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UbiBoat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F2A1906AC31EB2A37DA0C076CEDEB90F /* UbiBoat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UbiBoat.modulemap; sourceTree = "<group>"; };
 		F60EB5BF99EE12E0513618ED9E5884D8 /* UbiBoat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UbiBoat.release.xcconfig; sourceTree = "<group>"; };
-		F95E870C2B344018B1C31135D3F8A6DF /* Pods_UbiBoat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UbiBoat_Example.framework; path = "Pods-UbiBoat_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E870C2B344018B1C31135D3F8A6DF /* Pods_UbiBoat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UbiBoat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6A068E77C9F8DF6B2572D5BC186733 /* Pods-UbiBoat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiBoat_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB10B4B9E8251389042F16D5839C7E30 /* Pods-UbiBoat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiBoat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,7 +127,7 @@
 		4C977E85368ABC7CE95564B5AEDEA9A0 /* UbiBoat */ = {
 			isa = PBXGroup;
 			children = (
-				CAC1EA0DA8FD2A4E0B6B3F7C18D3B8FA /* ReplaceMe.m */,
+				185AE5E926B19FA8009D57FF /* ReplaceMe.m */,
 				B16EDE7D3103F252EE54BD41003708CA /* Pod */,
 				86F4F31C68D386F43479085F7058EEC1 /* Support Files */,
 			);
@@ -367,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849BBA9C937B5EE652BED73D4C4661ED /* ReplaceMe.m in Sources */,
+				185AE5EA26B19FA8009D57FF /* ReplaceMe.m in Sources */,
 				A94986A71D327D81B2EA23C40218491D /* UbiBoat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
