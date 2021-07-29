@@ -1,5 +1,5 @@
-framework module Ubiboat {
-  umbrella header "Ubiboat.h"
+framework module UbiBoat {
+  umbrella header "UbiBoat.h"
 
   export *
   module * { export * }

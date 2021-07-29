@@ -1,16 +1,47 @@
 PODS:
-  - UbiBoat (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BabyBluetooth (0.7.0)
+  - UbiBoat (0.1.5):
+    - AFNetworking (~> 2.3)
+    - BabyBluetooth
 
 DEPENDENCIES:
   - UbiBoat (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - BabyBluetooth
 
 EXTERNAL SOURCES:
   UbiBoat:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UbiBoat: 74d86f3d7d52b7064cbc8d52938635ed44060b03
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  UbiBoat: 486d6d3f4797dbb7ace8a815c469a94e390181e2
 
-PODFILE CHECKSUM: 453c54dfb24eaff994a62346ad1d7a9959a0bbe6
+PODFILE CHECKSUM: 13f2f725223597d3941f1dd5feb20cdcb6dbb224
 
 COCOAPODS: 1.10.1

@@ -1,26 +1,18 @@
 //
-//  Ubiboat.h
-//  Ubiboat
+//  UbiBoat.h
+//  UbiBoat
 //
-//  Created by apple on 2021/6/16.
-//  Copyright © 2021 崔帅. All rights reserved.
+//  Created by apple on 2021/7/29.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for Ubiboat.
-FOUNDATION_EXPORT double UbiboatVersionNumber;
+//! Project version number for UbiBoat.
+FOUNDATION_EXPORT double UbiBoatVersionNumber;
 
-//! Project version string for Ubiboat.
-FOUNDATION_EXPORT const unsigned char UbiboatVersionString[];
+//! Project version string for UbiBoat.
+FOUNDATION_EXPORT const unsigned char UbiBoatVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Ubiboat/PublicHeader.h>
-
-#ifndef _UBIBOAT_
-    #define _UBIBOAT_
-
-    #import "UbiboatManager.h"
-
-#endif /* _UBIBOAT_ */
+// In this header, you should import all the public headers of your framework using statements like #import <UbiBoat/PublicHeader.h>
 
 

@@ -4,56 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Ubiboat.h</key>
+		<key>Headers/UbiBoat.h</key>
 		<data>
-		Z2FTJBvc2cRU+9Z2HS9ynctx27U=
-		</data>
-		<key>Headers/UbiboatManager.h</key>
-		<data>
-		t73IELvkHdPiMrsPo+wbA+SKnt8=
+		+sGrrgUl9iPay4cakB2b5jBTBFQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fz8hJi7kf3A22iFe3O9t2gMwXyo=
+		SJb2P3fmu0RSUarLj095Ic4KYZA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ooXgFGBvpOGiTm3x+GifiIFSRLg=
+		96SYo1dNvxMmBdb4ou/QY/X38V4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Ubiboat.h</key>
+		<key>Headers/UbiBoat.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z2FTJBvc2cRU+9Z2HS9ynctx27U=
+			+sGrrgUl9iPay4cakB2b5jBTBFQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/kOv23HYxJ2IEcdIsMEuh2DBX7iiHH6+HNjGz0oNFWo=
-			</data>
-		</dict>
-		<key>Headers/UbiboatManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t73IELvkHdPiMrsPo+wbA+SKnt8=
-			</data>
-			<key>hash2</key>
-			<data>
-			OpKagalVC4BYH+W3eIU5/Ks3eW7K5dg3NEUvwieUTc4=
+			wGgZ5paaalyS4Hk1NU8Tj/Axw+xR3C3GoyqS8q4oFNA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ooXgFGBvpOGiTm3x+GifiIFSRLg=
+			96SYo1dNvxMmBdb4ou/QY/X38V4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bgr9ZtMoDFZpTwg8ZtW96M5dUJrTRHp3GeyOKSinp5c=
+			xfTAaN3AARPfgdALmKa8LFkkXN883epAOCa0Ou46+Pk=
 			</data>
 		</dict>
 	</dict>
