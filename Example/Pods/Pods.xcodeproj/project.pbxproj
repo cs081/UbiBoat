@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		094FBEAE7C79DA3D0200661FB7837652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		185AE5EA26B19FA8009D57FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AE5E926B19FA8009D57FF /* ReplaceMe.m */; };
+		1809EB9226B23E6C00D1D214 /* Ubiboat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1809EB9126B23E6C00D1D214 /* Ubiboat.framework */; };
 		263BB1D39038449D817AF3B73852BD20 /* UbiBoat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C61D4525A3672C9D7A8BAC6B74BEFD /* UbiBoat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F5DFEEAF49A243E4D337165C027780 /* Pods-UbiBoat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBA7CE18B13E18148DAF1AC3A935A45 /* Pods-UbiBoat_Tests-dummy.m */; };
 		46461ADB54FEB47ED94B2A18A5CA208C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -42,7 +42,7 @@
 		02185744F54E01AED002108B02F15D5F /* Pods-UbiBoat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiBoat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		025C0FF70648EC1138D05F94FADECC27 /* Pods-UbiBoat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiBoat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		04E45BD0E2C334E3DF9DF3A57DB68A2B /* Pods_UbiBoat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UbiBoat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		185AE5E926B19FA8009D57FF /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UbiBoat/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1809EB9126B23E6C00D1D214 /* Ubiboat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ubiboat.framework; path = UbiBoat/Classes/Ubiboat.framework; sourceTree = "<group>"; };
 		1BABA58D4140D9DDF96B2A2A7098BAED /* Pods-UbiBoat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UbiBoat_Example-umbrella.h"; sourceTree = "<group>"; };
 		251AB8C0F3CDD03A8E4AE96B735DA984 /* Pods-UbiBoat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiBoat_Tests-Info.plist"; sourceTree = "<group>"; };
 		2780A2D2ECA6FC491000D5017859C666 /* Pods-UbiBoat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UbiBoat_Tests.modulemap"; sourceTree = "<group>"; };
@@ -78,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46461ADB54FEB47ED94B2A18A5CA208C /* Foundation.framework in Frameworks */,
+				1809EB9226B23E6C00D1D214 /* Ubiboat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +128,7 @@
 		4C977E85368ABC7CE95564B5AEDEA9A0 /* UbiBoat */ = {
 			isa = PBXGroup;
 			children = (
-				185AE5E926B19FA8009D57FF /* ReplaceMe.m */,
+				1809EB9126B23E6C00D1D214 /* Ubiboat.framework */,
 				B16EDE7D3103F252EE54BD41003708CA /* Pod */,
 				86F4F31C68D386F43479085F7058EEC1 /* Support Files */,
 			);
@@ -367,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185AE5EA26B19FA8009D57FF /* ReplaceMe.m in Sources */,
 				A94986A71D327D81B2EA23C40218491D /* UbiBoat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
